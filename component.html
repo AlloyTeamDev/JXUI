@@ -24,6 +24,7 @@
 <link rel="stylesheet" type="text/css" href="css/popup.css" />
 <link rel="stylesheet" type="text/css" href="css/tabs.css" />
 <link rel="stylesheet" type="text/css" href="css/pagination.css" />
+<link rel="stylesheet" type="text/css" href="css/form.css" />
 <link rel="stylesheet" type="text/css" href="css/frames.css" />
 </head>
 <body scroll="no">
@@ -49,6 +50,7 @@
       <li><a href="###" hidefocus="true">弹出框</a></li>
       <li><a href="###" hidefocus="true">选项卡</a></li>
       <li><a href="###" hidefocus="true">分页</a></li>
+      <li><a href="###" hidefocus="true">搜索框</a></li>
     </ul>
   </div>
   <div id="UIContainer">
@@ -187,8 +189,23 @@
           <div class="codeLink">依赖文件:<a href="download.php?f=css/pagination.css">pagination.css</a></div>
         </div>
       </li>
-    </ul>
-  </div>
+       <li>
+         <div class="input-append">
+              <input type="text" class="span2 search-query">
+              <button type="submit" class="btn">Search</button>
+         </div>
+        <div class="codeArea">
+          <div class="codeTitle">代码:</div>
+          <div class="code">&lt;div class=&quot;input-append&quot;&gt;<br>
+&lt;input type=&quot;text&quot; class=&quot;span2 search-query&quot;&gt;<br>
+&lt;button type=&quot;submit&quot; class=&quot;btn&quot;&gt;Search&lt;/button&gt;<br>
+&lt;/div&gt;  
+          </div>
+          <div class="codeLink">依赖文件:<a href="download.php?f=css/form.css">form.css</a></div>
+        </div>
+      </li>
+   </ul>
+</div>
 </div>
 <script>
 var contentList=getChildNodesByTagName($('demoList'),'li');
