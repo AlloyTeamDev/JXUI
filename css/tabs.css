@@ -1,0 +1,38 @@
+.tabs{
+  float: left;
+  border-bottom: 1px solid #ddd;
+}
+.tabs li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+.tabs li a {
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: 2px;
+  line-height: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 18px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+     -moz-border-radius: 4px 4px 0 0;
+          border-radius: 4px 4px 0 0;
+  display: block;
+}
+
+.tabs li a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+.tabs .active a,
+.tabs .active a:hover {
+  color: #555555;
+  cursor: default;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}

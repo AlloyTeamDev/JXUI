@@ -1,0 +1,124 @@
+html{height:100%;}
+body{
+	height:100%;
+	background:#f1f1f1;
+}
+#UIListContainer{
+	width:180px;
+	background:#fff;
+	height:100%;
+	overflow:hidden;
+	position:absolute;
+	left:0;
+	top:0;
+	background:#ddd;
+}
+#UIContainer{
+	background:#f1f1f1;
+	height:100%;
+	overflow:auto;
+	_position:relative;
+	margin:0 0 0 180px;
+	_overflow-x:hidden;
+}
+#UIListContainer h2{
+	font-size:16px;
+	margin:50px 20px 10px;
+}
+#UIList{
+	margin:10px 0;
+	width:180px;
+}
+#UIList li a{
+	font-size:12px;
+	line-height:30px;
+	height:30px;
+	text-indent:20px;
+	display:block;
+	width:100%;
+}
+#UIList li a:hover{
+	text-decoration:none;
+	background:#f1f1f1;
+}
+#UIList li.cur{
+	background:#f1f1f1;
+}
+#demoList{
+	margin:50px 10px 20px;
+	float:left;
+}
+.codeArea{
+	font-size:12px;
+	line-height:24px;
+	color:#333;
+    clear:both;
+}
+.codeTitle{
+	font-size:12px;
+	line-height:20px;
+	margin:10px 0 0;
+}
+.codeLink a{
+	margin:0 10px;
+}
+.container{
+	height:100%;
+	position:relative;
+}
+/****滚动条*****/
+#scrollText {
+	height:500px;
+	font-size:14px;
+	padding:5px;
+	line-height:1.5;
+	width:490px;
+	word-break:break-all;
+}
+#textContainer {
+	background:#f1f1f1;
+	width:500px;
+}
+/****Select组件****/
+#select{
+	width:200px;
+}
+/****分页组件****/
+#pagerContainer{
+	float:left;
+}
+#curPage{
+	float:left;
+	color:#333;
+	margin:20px 5px;
+	font-size:12px;
+}
+.pagerOuter{
+	overflow:hidden
+}
+/****九宫格图片背景****/
+#bgContainer{
+	width:500px;
+	height:500px;
+}
+#bgContainer h3{
+	line-height:32px;
+	font-size:14px;
+	font-weight:normal;
+	text-indent:10px;
+}
+#progress{
+	position:absolute;
+	bottom:20px;
+	left:100px;
+}
+#animateContainer{
+	height:37px;
+	width:38px;
+}
+/****tooltip****/
+#toolTip{
+	position:relative;
+	line-height:0;
+	height:0;
+}

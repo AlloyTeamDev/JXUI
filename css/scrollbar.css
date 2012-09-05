@@ -1,0 +1,19 @@
+.scroll_container{position:relative;padding-right:25px;height:400px;overflow:hidden;background:url(../images/transparent.gif);}
+.scroll_slider{top:0;position:absolute;width:100%;height:100%;}
+.scroll_slider_top{height:14px;width:100%;top:0;position:absolute;background:url(../images/scroll/slider_top.png) center top no-repeat;}
+.scroll_slider_bottom{height:13px;width:100%;bottom:0;position:absolute;background:url(../images/scroll/slider_bottom.png) center bottom no-repeat;}
+.scroll_slider_middle{position:absolute;top:14px;width:100%;background:url(../images/scroll/slider.png) center center repeat-y;}
+.scroll_bar{position:absolute;right:0;top:0;height:100%;width:11px;z-index:2;}
+.scroll_cube_top{position:absolute;left:0;top:0;height:19px;width:100%;background:url(../images/scroll/bar_top.png) center top no-repeat;}
+.scroll_cube_middle{position:absolute;left:0;top:19px;height:11px;width:100%;background:url(../images/scroll/bar_middle.png) center 0 repeat-y;}
+.scroll_cube_bottom{position:absolute;left:0;bottom:0;height:18px;width:100%;background:url(../images/scroll/bar_bottom.png) center bottom no-repeat;}
+.scroll_cube_texture{width:100%;height:100%;background:url(../images/scroll/texture.png) center center no-repeat;}
+.scroll_cube{position:absolute;top:0;left:0;width:100%;height:20px;cursor:default;top:20px;}
+.up_arrow,.down_arrow{width:100%;height:10px;position:absolute;left:0;line-height:0;font-size:0;}
+.up_arrow{top:0;background:url(../images/scroll/up_arrow.png) center center no-repeat;}
+.down_arrow{bottom:0;background:url(../images/scroll/down_arrow.png) center center no-repeat;}
+/* for ie6 
+.scroll_slider_top{_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=bEnabled, sizingMethod=scale, src="http://melodyui.sinaapp.com/images/scroll/slider_top.png");}
+.scroll_slider_middle{_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=bEnabled, sizingMethod=scale, src="http://melodyui.sinaapp.com/images/scroll/slider.png");}
+.scroll_slider_middle{_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=bEnabled, sizingMethod=scale, src="http://melodyui.sinaapp.com/images/scroll/slider_bottom.png");}*/
+

@@ -1,0 +1,13 @@
+ul { list-style:none outside none; }
+.select{position:relative;z-index:1000;height:27px;}
+.select h3{width:100%;height:100%;line-height:27px;font-size:14px;color:#666;text-indent:6px;position:relative;}
+/*此处的小三角必须使用背景图片才可以，不然的话就遮挡住了标题层，导致点击区域变小，点击容易失败*/
+.select i { position:absolute; right:1px; top:1px; width:22px; height:23px; background:url(../images/select/arrow.png) center center no-repeat; overflow:hidden;cursor:pointer;}
+.select_options{position:absolute;left:0;top:25px;width:100%;}
+.select ul { background:#dfe1e2 url(../images/select/panel_middle_middle.png) repeat-x;color:#000;margin:-1px 1px 0;border:1px solid #c0c0c0;}
+.select ul li {height:30px;line-height:30px;}
+.select ul li a{display:block;width:100%;text-indent:6px;height:100%;color:#000;text-decoration:none;font-size:14px;}
+.select ul li a:hover{cursor:pointer;background:#ccc; color:#fff;text-decoration:none;}
+.select_left{position:absolute;left:0;top:0;width:9px;height:27px;background:url(../images/select/select_left.png) left top no-repeat;}
+.select_right{position:absolute;right:0;top:0;width:10px;height:27px;background:url(../images/select/select_right.png) right top no-repeat;}
+.select_middle{position:absolute;left:9px;right:10px;top:0;height:27px;background:url(../images/select/select_middle.png) repeat-x;}

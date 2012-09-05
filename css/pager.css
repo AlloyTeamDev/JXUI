@@ -1,0 +1,11 @@
+.pager{text-align:center;font-size:11px;width:450px;height:44px;background:url(../images/pager/bg.png);line-height:44px;position:relative;color:#777;margin:5px;}
+.pager span,.pager a{width:29px;display:inline-block;}
+.pager a{color:#777;text-decoration:none;}
+.pager a:hover{color:#09C;text-decoration:underline;}
+.pager .pager_first{position:absolute;left:0;top:0;margin:0;width:auto;display:none;}
+.pager .pager_last{position:absolute;right:0;top:0;margin:0;width:auto;display:none;}
+.pager .pager_prev{position:absolute;left:15px;top:0;width:14px;height:100%;display:inline-block;background:url(../images/pager/left_arrow.png) center center no-repeat;margin:0;text-indent:-9999px;}
+.pager .pager_next{position:absolute;right:15px;top:0;width:14px;height:100%;display:inline-block;background:url(../images/pager/right_arrow.png) center center no-repeat;margin:0;text-indent:-9999px;}
+.pager_cur{background:url(../images/pager/cur.png) right center no-repeat;}
+.pager span.pager_prev{background:url(../images/pager/left_arrow_disable.png) center center no-repeat;}
+.pager span.pager_next{background:url(../images/pager/right_arrow_disable.png) center center no-repeat;}

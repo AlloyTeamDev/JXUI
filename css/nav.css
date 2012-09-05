@@ -1,0 +1,55 @@
+.nav{
+  	height: 36px;
+	z-index:100;
+	display:inline-block;
+}
+.absolute{
+	position:absolute;
+}
+.relative{
+	position:relative;
+}
+.width100{
+	width:100%;
+}
+.nav_in{
+  height: 36px;
+  background-color: #eeeeee; /* Old browsers */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  background-image: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Chrome 10+,Safari 5.1+ */
+  background-image: -ms-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* IE10+ */
+  background-image: -o-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Opera 11.10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+  background-image: linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* W3C */
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.nav ul{
+	height:100%;
+	margin:0 5px;
+}
+.nav li{
+	float:left;
+	height:100%;
+	border-right:1px #e5e5e5 solid;
+	padding:0 5px;
+	line-height:36px;
+	font-size:14px;
+	color:#333;
+}
+.nav li.last{
+	border:none;
+}
+.nav a{
+	display:block;
+}
+.nav a:hover{
+	text-decoration:none;
+}
+.nav li:hover{
+	background:#e5e5e5;
+}
