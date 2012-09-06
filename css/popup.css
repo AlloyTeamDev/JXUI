@@ -26,4 +26,5 @@
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 	position:relative;
+	display:inline-block;
 }
