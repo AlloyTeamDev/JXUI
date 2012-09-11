@@ -79,7 +79,7 @@
         <div class="codeArea">
             <div class="codeTitle">代码:</div>
             <div class="code">var scrollBar = new Jx.ui.ScrollBar($('scrollText'));</div>
-            <div class="codeLink">依赖文件:<a href="download.php?f=jx/jx.custom.js">jx.custom.js</a><a href="download.php?f=jx/jx.ui.scrollbar.js">jx.ui.scrollbar.js</a><a href="download.php?f=css/scrollbar.css">scrollbar.css</a></div><div>图片请自行下载</div>
+            <div class="codeLink">依赖文件:<a download="jx.custom.js" href="jx/jx.custom.js">jx.custom.js</a><a download="jx.ui.scrollbar.js" href="jx/jx.ui.scrollbar.js">jx.ui.scrollbar.js</a><a download="jx.custom.js" href="css/scrollbar.css">scrollbar.css</a></div><div>图片请自行下载</div>
         </div>
         <script>
 		var scrollBar = new Jx.ui.ScrollBar($('scrollText'));
@@ -90,7 +90,7 @@
         <div class="codeArea">
             <div class="codeTitle">代码:</div>
             <div class="code">var sel=new Jx.ui.Select([[0,'hao'],[1,'好'],[2,'很好'],[3,'其实不是很好'],[4,'那就这样吧'],[5,'也好']],$('select'));</div>
-            <div class="codeLink">依赖文件:<a href="download.php?f=jx/jx.custom.js">jx.custom.js</a><a href="download.php?f=jx/jx.ui.select.js">jx.ui.select.js</a><a href="download.php?f=css/select.css">select.css</a></div><div>图片请自行下载</div>
+            <div class="codeLink">依赖文件:<a download="jx.custom.js" href="jx/jx.custom.js">jx.custom.js</a><a download="jx.ui.select.js" href="jx/jx.ui.select.js">jx.ui.select.js</a><a download="jx.custom.js" href="css/select.css">select.css</a></div><div>图片请自行下载</div>
         </div>
         <script>
 		var sel=new Jx.ui.Select([[0,'hao'],[1,'好'],[2,'很好'],[3,'其实不是很好'],[4,'那就这样吧'],[5,'也好']],$('select'));
@@ -102,7 +102,7 @@
         <div class="codeArea">
             <div class="codeTitle">代码:</div>
             <div class="code">var pager=new Jx.ui.Pager($('pagerContainer'),300,11,function(page){$('curPage').innerHTML='已选择第'+page+'页';});</div>
-            <div class="codeLink">依赖文件:<a href="download.php?f=jx/jx.custom.js">jx.custom.js</a><a href="download.php?f=jx/jx.ui.pager.js">jx.ui.pager.js</a><a href="download.php?f=css/pager.css">pager.css</a></div><div>图片请自行下载</div>
+            <div class="codeLink">依赖文件:<a download="jx.custom.js" href="jx/jx.custom.js">jx.custom.js</a><a download="jx.ui.pager.js" href="jx/jx.ui.pager.js">jx.ui.pager.js</a><a download="jx.custom.js" href="css/pager.css">pager.css</a></div><div>图片请自行下载</div>
         </div>
         <script>
 		var pager=new Jx.ui.Pager($('pagerContainer'),300,11,function(page){$('curPage').innerHTML='已选择第'+page+'页';});
@@ -112,8 +112,10 @@
       	<div id="bgContainer"><h3>温馨提示</h3></div>
         <div class="codeArea">
             <div class="codeTitle">代码:</div>
-            <div class="code">var bg=new Jx.ui.ImgBg('images/window/window1.png',176,176,null,null,$('bgContainer'),10,10,33,10);</div>
-            <div class="codeLink">依赖文件:<a href="download.php?f=jx/jx.custom.js">jx.custom.js</a><a href="download.php?f=jx/jx.ui.imgbg.js">jx.ui.imgbg.js</a><a href="download.php?f=images/window/window1.png">window1.png</a></div>
+            <div class="code">
+            函数定义:ImgBg(src,imgWidth,imgHeight,width,height,el,left,right,y,bottom);<br>
+            var bg=new Jx.ui.ImgBg('images/window/window1.png',176,176,null,null,$('bgContainer'),10,10,33,10);</div>
+            <div class="codeLink">依赖文件:<a download="jx.custom.js" href="jx/jx.custom.js">jx.custom.js</a><a download="jx.ui.imgbg.js" href="jx/jx.ui.imgbg.js">jx.ui.imgbg.js</a><a download="jx.custom.js" href="images/window/window1.png">window1.png</a></div>
         </div>
         <script>
 		var bg=new Jx.ui.ImgBg('images/window/window1.png',176,176,null,null,$('bgContainer'),10,10,33,10);
@@ -127,7 +129,7 @@
             var contentList=getChildNodesByTagName($('demoList'),'li');<br/>
 			var tab=new Jx.ui.Tab($('UIList').getElementsByTagName('li'),contentList,function(el,prevEl,index){el.className='cur';prevEl.className='';});
 </div>
-            <div class="codeLink">依赖文件:<a href="download.php?f=js/util.js">util.js</a><a href="download.php?f=jx/jx.custom.js">jx.custom.js</a><a href="download.php?f=jx/jx.ui.tab.js">jx.ui.tab.js</a></div>
+            <div class="codeLink">依赖文件:<a download="js/util.js" href="js/util.js">util.js</a><a download="jx.custom.js" href="jx/jx.custom.js">jx.custom.js</a><a download="jx.ui.tab.js" href="jx/jx.ui.tab.js">jx.ui.tab.js</a></div>
         </div>
       </li> 
       <li>
@@ -136,7 +138,7 @@
             <div class="codeTitle">代码:</div>
             <div class="code"> var animate=new ImgAnimate('images/animate/animate.png',40,1080,null,100,$('animateContainer'));
             </div>
-            <div class="codeLink">依赖文件<a href="download.php?f=js/imganimate.js">imganimate.js</a></div>
+            <div class="codeLink">依赖文件<a download="js/imganimate.js" href="js/imganimate.js">imganimate.js</a></div>
 			<script>
             var animate=new ImgAnimate('images/animate/animate1.png',40,1080,null,100,$('animateContainer'));
             </script>
