@@ -26,51 +26,77 @@
 	<link rel="stylesheet" type="text/css" href="css/pagination.css" />
 	<link rel="stylesheet" type="text/css" href="css/frames.css" />
 	<style>
+	body{
+		overflow:hidden;
+	}
+	.container{
+		margin:0 auto;
+		width:600px;
+		font-size:14px;
+		text-align:center;
+	}
 	.download{
 		margin:20px auto;
 		text-align:center;
 	}
-	.content{
-		position:absolute;
-		top:50px;
-		text-align:left;
+	.content h1{
 		text-align:center;
-		width:100%;
 	}
-	.content img{
-		float:left;
-		margin:30px 50px;
+	.logo{
+		margin:100px auto 30px;
 	}
-	.intro{
-		margin:30px auto;
-		text-align:left;
-		font-size:20px;
-		line-height:2;
-		font-family:微软雅黑;
-		text-indent:2em;
-		width:900px;
-	}
+
 	.btn_download{
-		font-size:60px;
-		padding:15px;
+		font-family:"微软雅黑";
+		font-size:30px;
+		padding:10px 30px;
 		line-height:60px;
-		color:#ddd;
-		background-color:#4580B9;
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4580B9), to(#6399CE));
+		color:deepskyblue;
+
 	}
 	a.btn_download:hover{
-		color:#f1f1f1;
+		color:orange;
 		background-position:0 0;
+	}
+	.copyright{
+		margin:100px auto auto;
+		color:#999;
+		text-align:center;
+		height:50px;
 	}
 	</style>
 </head>
-<body scroll="no">
-<div class="nav absolute width100"><div class="nav_in"><ul><li><a href="index.html">概览</a></li><li><a href="base.html">基础样式</a></li><li><a href="component.html">组件</a></li><li><a href="javascript.html">Javascript插件</a></li><li><a href="demo.html">Demo</a></li></ul></div></div><div class="container">
-	<div class="content">
-    <div class="intro"><img src="images/component.png" /><div>你好，欢迎来到JX UI组件的世界~</div><div>UI组件包括css组件和javascript插件两部分，css组件只需引入相应的css，并使用相应的样式即可。Javascript插件需要引入相关的js和并且下载相应的图片，再加一些代码调用就OK了。</div></div>
-    <div class="download"><a href="download/ui.zip" class="btn btn_download">打包下载</a></div>
-    </div>
-</div>
+<body>
+	<div class="nav absolute width100">
+		<div class="nav_in">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="base.html">基础样式</a></li>
+				<li><a href="component.html">组件</a></li>
+				<li><a href="javascript.html">Javascript插件</a></li>
+				<li><a href="demo.html">Demo</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<img class="logo" src="images/component.png" />
+		<div class="content">
+			<h1>JX UI</h1>
+			<p>
+				你好，欢迎来到JX UI组件的世界~<br/>
+				By <a href="http://www.AlloyTeam.com" target="_blank">AlloyTeam.com</a>
+			
+			</p>
+			<p>UI组件包括css组件和javascript插件两部分，css组件只需引入相应的css，并使用相应的样式即可。Javascript插件需要引入相关的js和并且下载相应的图片，再加一些代码调用就OK了。</p>
+		</div>
+		
+		<div class="download">
+			<a href="download/ui.zip" class="btn btn_download">打包下载</a>
+		</div>
+	</div>
+	
+	<div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.AlloyTeam.com/">Tencent AlloyTeam</a>. All Rights Reserved.</div>
+	
 <!--[if IE 6]>
 <script src="js/DD_belatedPNG_0.0.7a-min.js"></script>  
 <script>

@@ -18,28 +18,28 @@ h1, h2, h3, h4, h5, h6 {
 	text-rendering: optimizelegibility;
 }
 h1 {
-	font-size: 30px;
+	font-size: 50px;
 }
 
 h1 small {
-  font-size: 18px;
+  font-size: 36px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 36px;
 
 }
 
 h2 small {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 h3 small {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
@@ -58,8 +58,6 @@ h5 {
 
 h6 {
   font-size: 12px;
-  color: #999999;
-  text-transform: uppercase;
 }
 
 p {

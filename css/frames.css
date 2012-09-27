@@ -62,10 +62,7 @@ body{
 .codeLink a{
 	margin:0 10px;
 }
-.container{
-	height:100%;
-	position:relative;
-}
+
 /****滚动条*****/
 #scrollText {
 	height:500px;
