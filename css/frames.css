@@ -1,20 +1,19 @@
 html{height:100%;}
 body{
 	height:100%;
-	background:#f1f1f1;
+	background:#E7F7FF;
 }
 #UIListContainer{
 	width:180px;
-	background:#fff;
+
 	height:100%;
 	overflow:hidden;
 	position:absolute;
 	left:0;
 	top:0;
-	background:#ddd;
 }
 #UIContainer{
-	background:#f1f1f1;
+	background:#ffffff;
 	height:100%;
 	overflow:auto;
 	_position:relative;
@@ -39,10 +38,11 @@ body{
 }
 #UIList li a:hover{
 	text-decoration:none;
-	background:#f1f1f1;
+	background:#FDC100;
+	color:white;
 }
 #UIList li.cur{
-	background:#f1f1f1;
+	background:#ffffff;
 }
 #demoList{
 	margin:50px 10px 20px;
@@ -62,10 +62,7 @@ body{
 .codeLink a{
 	margin:0 10px;
 }
-.container{
-	height:100%;
-	position:relative;
-}
+
 /****滚动条*****/
 #scrollText {
 	height:500px;
