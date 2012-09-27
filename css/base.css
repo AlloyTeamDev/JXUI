@@ -69,6 +69,12 @@ p small {
   font-size: 11px;
   color: #999999;
 }
+p.indent2 {
+	text-indent:2em;
+}
+p.indent4 {
+	text-indent:4em;
+}
 
 input,
 textarea {
