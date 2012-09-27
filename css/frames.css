@@ -1,7 +1,7 @@
 html{height:100%;}
 body{
 	height:100%;
-	background:#E7F7FF;
+	background:white;
 }
 #UIListContainer{
 	width:180px;
@@ -11,9 +11,9 @@ body{
 	position:absolute;
 	left:0;
 	top:0;
+	background:#E7F7FF;
 }
 #UIContainer{
-	background:#ffffff;
 	height:100%;
 	overflow:auto;
 	_position:relative;
