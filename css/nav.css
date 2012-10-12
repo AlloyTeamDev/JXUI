@@ -49,6 +49,7 @@
 }
 .nav a:hover{
 	text-decoration:none;
+	cursor:pointer;
 }
 .nav li:hover{
 	background:#e5e5e5;
