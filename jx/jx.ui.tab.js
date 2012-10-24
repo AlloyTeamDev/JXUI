@@ -12,7 +12,10 @@ Jx().$package("Jx.ui", function(J){
 			for(var i=0;i<tabList.length;++i){
 				tabList[i].setAttribute('index',i);
 			}
-			for(var i=0;i<contentList.length;++i){
+			for(var i=0;i<index;++i){
+				contentList[i].style.display='none';
+			}
+			for(var i=index+1;i<contentList.length;++i){
 				contentList[i].style.display='none';
 			}
 			contentList[index].style.display='block';
